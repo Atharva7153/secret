@@ -9,6 +9,6 @@
         "chapter7" : "./songs/Chapter_7.mp3",
         "chapter8" : "./songs/Chapter_8.mp3",
         "english" : "./songs/Enlgish.mp3",
-        "hindi" : "/songs/hindi.mp3"
+        "hindi" : "./songs/hindi.mp3"
     }
 ]
