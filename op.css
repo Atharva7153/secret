@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    background-image: url(jpg.png);
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.container{
+    width: 54vw;
+    height: 99vh;
+    background-image: url(container.png);
+}
+
+.clouds{
+    height: 30%;
+}
+.style{
+    display: flex;
+    height: 40%
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    padding-top: 8%;
+    align-items: center;
+    height: 27%
+}
+.heart{
+    padding-left: 3.5%;
+    width: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.left{
+    transition: transform 0.3s ease-in-out;
+}
+
+.right{
+    transition: transform 0.3s ease-in-out;
+}
+
+.circle{
+    padding-left: 35.5%;
+    width: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+.h:hover{
+    transform: scale(1.05);
+    
+}
+
+
+.cloud-marquee {
+    position: absolute;
+    top: -6%; /* Moves it higher */
+    left: -300px; /* Starts off-screen */
+    width: 300px; /* Cloud size */
+    height: auto;
+    animation: float-cloud 40s linear infinite;
+    z-index: 100;
+}
+
+@keyframes float-cloud {
+    from {
+        left: -300px;
+    }
+    to {
+        left: 100vw;
+    }
+}
+.cloud-marquee2{
+    position: absolute;
+    top: -6%; /* Moves it higher */
+    left: -300px; /* Starts off-screen */
+    width: 300px; /* Cloud size */
+    height: auto;
+    animation: float-cloud 60s linear infinite;
+    z-index: 100;
+}
+
+@keyframes float-cloud {
+    from {
+        left: -300px;
+    }
+    to {
+        left: 100vw;
+    }
+}
+.text{
+    position: fixed;
+    top: 42%; /* Adjust this based on your white box position */
+    left: 50.3%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    width: 35%; /* Adjust width to fit inside the white box */
+    height: 70%;
+    color: black; /* Change text color if needed */
+    font-size: 20px;
+    text-align: center;
+    z-index: 10; /* Ensure it's above the background */
+    
+    padding-left: 1%;
+}
+
+.highlight{
+    color: red;
+    
+}
+.title{
+    text-shadow: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 140%;
+    
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    font-family: 'Baloo Bhai 2';
+    font-weight: bold;
+    text-shadow: 5px 3px 11.2px rgba(205, 3, 255, 0.7);
+    font-size: 150%;
+}
+.hindi {
+    border: 1;
+    border-radius: 10px;
+    font-family: 'Baloo Bhai 2';
+    font-size: 100%;
+    height: 5vh;
+    width: 10vw;
+    background-color: rgba(220, 125, 173, 1);
+}
+.hindi:hover{
+    background-color: rgba(255, 0, 191, 1);
+    transform: scale(1.05);
+    color: white;
+}
+.english {
+    border: 1;
+    border-radius: 10px;
+    font-family: 'Baloo Bhai 2';
+    font-size: 100%;
+    height: 5vh;
+    width: 10vw;
+    background-color: rgba(220, 125, 173, 1);
+    
+}
+.english:hover{
+    background-color: rgba(255, 0, 191, 1);
+    transform: scale(1.05);
+    color: white;
+}
+
+

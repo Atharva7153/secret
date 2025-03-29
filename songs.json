@@ -1,0 +1,14 @@
+[
+    {
+        "chapter1" : "./songs/Chapter_1.mp3",
+        "chapter2" : "./songs/Chapter_2.mp3",
+        "chapter3" : "./songs/Chapter_3.mp3",
+        "chapter4" : "./songs/Chapter_4.mp3",
+        "chapter5" : "./songs/Chapter_5.mp3",
+        "chapter6" : "./songs/Chapter_6.mp3",
+        "chapter7" : "./songs/Chapter_7.mp3",
+        "chapter8" : "./songs/Chapter_8.mp3",
+        "english" : "./songs/Enlgish.mp3",
+        "hindi" : "/songs/hindi.mp3"
+    }
+]
